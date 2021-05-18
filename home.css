@@ -1,12 +1,33 @@
-.narbar {
+.flex-container {
+    display: flex;
+    background-color:lightgray;
+}
+.menu-flex-container {
+    display: flex;
+    flex-flow: column;
+    background-color: whitesmoke;
+}
+.content-flex-container {
+    flex-grow: 1;
+
+}
+.all-content {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
-    background-color: black;
 }
-.narbar>div {
-    background-color: darkgrey;
-    margin: 10px;
+
+.flex-container>div {
+    background-color: gray;
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+.menu-flex-container>div {
+    background-color: gray;
+    margin: 20px;
     padding: 20px;
-    font-size: 10px;
+    font-size: 20px;
+}
+div {
+    border: 1px solid black;
 }
