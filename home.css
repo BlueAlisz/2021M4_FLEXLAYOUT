@@ -1,29 +1,30 @@
 .flex-container {
     display: flex;
-    background-color:lightgray;
+    background-color:lightgreen;
 }
 .menu-flex-container {
     display: flex;
     flex-flow: column;
-    background-color: whitesmoke;
+    background-color: light;
 }
 .content-flex-container {
     flex-grow: 1;
+    padding: 20px;
 
 }
 .all-content {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
 }
 
 .flex-container>div {
-    background-color: gray;
+    background-color: green;
     margin: 15px;
     padding: 10px;
     font-size: 20px;
 }
 .menu-flex-container>div {
-    background-color: gray;
+    background-color: green;
     margin: 20px;
     padding: 20px;
     font-size: 20px;
